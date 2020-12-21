@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kufam', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 50px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.navList{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.navList li{
+    list-style: none;
+    padding: 22px;
+    
+}
+.navList li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+.navList li a:hover{
+    color:black;
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 16px;
+}
+#search{
+    padding: 8px 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 71%;
+}
+.firstHalf{
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 42px;
+}
+.text-small{
+    font-size: 20px;
+
+}
+.btn{
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 8px 3px;
+    font-size: 20px;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.btn-dark{
+    color: #000;
+    font-size: 16px;
+    border: 2px solid gray;
+    
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.sectionTag{
+    padding: 12px 0;
+}
+.section-Left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0 80px;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 12px;
+    height: 232px;
+}
+.contact{
+    background-color: #f2eee7;
+    height: 750px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 32px;
+}
+.form{
+    max-width: 62%;
+    margin: 24px auto;
+}
+.form-input{
+    width: 100%;
+    margin: 14px 0;
+    padding: 5px 13px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    color: gray;
+}
+.text-footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 24px 20px;
+    font-size: 24px;
+}
+hr{
+    color: whitesmoke;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 32px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
